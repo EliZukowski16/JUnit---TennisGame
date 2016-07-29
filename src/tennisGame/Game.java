@@ -29,7 +29,8 @@ public class Game
 
 	public String getScore()
 	{
-		// TODO Auto-generated method stub
+		score[0] = playerOne.getBallsWon();
+		score[1] = playerTwo.getBallsWon();
 		String scoreString = "";
 
 

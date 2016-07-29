@@ -7,13 +7,19 @@ public class Player
 
 	public Player(String name)
 	{
-		// TODO Auto-generated constructor stub
+		this.name = name;
+		ballsWon = 0;
 	}
 
 	public void winBall()
 	{
-		// TODO Auto-generated method stub
+		ballsWon++;
 		
+	}
+	
+	public Integer getBallsWon()
+	{
+		return ballsWon;
 	}
 
 
