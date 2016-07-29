@@ -3,6 +3,7 @@ package tennisGame;
 public class Player
 {
 	private String name;
+	private Integer ballsWon;
 
 	public Player(String name)
 	{
