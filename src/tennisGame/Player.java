@@ -21,6 +21,11 @@ public class Player
 	{
 		return ballsWon;
 	}
+	
+	public String getName()
+	{
+		return name;
+	}
 
 
 }
